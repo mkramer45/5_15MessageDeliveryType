@@ -14,3 +14,11 @@ message = client.messages.create(
                           )
 
 print(message.sid)
+
+
+# this script is straightforward, send body to explicit number from explicit number
+# moving forward, we need to do the following logic:
+# 	-- funny texts --
+#	-- body_funny = random msg from funny table
+#	-- to_funny = users who have RadioB = 'Funny'
+
